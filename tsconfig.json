@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "ESNext",
+    "target": "ES6",
+    "lib": ["dom", "esnext"],
+    "sourceMap": true,
+    "jsx": "react",
+    "declaration": true, // This ensures .d.ts files are generated
+    "declarationDir": "./dist/types", // Optional: Specify where to output .d.ts files
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
