@@ -1,6 +1,6 @@
 {
     "name": "dotty-ui",
-    "version": "0.0.12",
+    "version": "0.0.13",
     "main": "dist/index.js",
     "module": "dist/index.es.js",
     "types": "dist/types/index.d.ts",
